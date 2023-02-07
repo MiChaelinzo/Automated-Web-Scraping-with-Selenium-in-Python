@@ -9,3 +9,4 @@ This code demonstrates the use of the Selenium library in Python to automate the
 - 5.) python3 AutomatedWebScraping.py to run the code 
 - 6.) Enjoy using Automated-Web-Scraping-with-Selenium-in-Python
 
+![RamziOsta_background_for_web_development_blog_b7f64115-00bb-40f3-a108-5ac59506cb2e](https://user-images.githubusercontent.com/68110223/217234915-77940c56-6668-4985-9076-95de754207a1.png)
