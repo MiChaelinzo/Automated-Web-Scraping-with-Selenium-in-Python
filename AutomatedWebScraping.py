@@ -6,7 +6,7 @@ import time
 driver = webdriver.Firefox()
 
 # navigate to the web application
-driver.get("https://www.example.com")
+driver.get("https://www.google.com")
 
 # find the search bar element
 search_bar = driver.find_element_by_xpath("//input[@name='q']")
