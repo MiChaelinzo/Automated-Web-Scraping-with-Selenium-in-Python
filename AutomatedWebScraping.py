@@ -9,7 +9,7 @@ driver = webdriver.Firefox()
 driver.get("https://www.google.com")
 
 # find the search bar element
-search_bar = driver.find_element(by="xpath", value="//li[@class='serp-item']")
+search_bar = driver.find_element(By.XPATH, "//input[@name='q']")
 
 # enter the keyword you want to search for
 search_bar.send_keys("DragonBall")
@@ -21,7 +21,7 @@ search_bar.submit()
 time.sleep(5)
 
 # find all the results on the page
-results = driver.find_elements(by="xpath", //div[@class='result']")
+results = driver.find_elements(By.XPATH, "//div[@class='g']")
 
 # loop through the results and print the text of each result
 for result in results:
@@ -34,11 +34,11 @@ search_bar.send_keys(Keys.PAGE_DOWN)
 time.sleep(5)
 
 # find all the results on the second page
-results = driver.find_elements(by="xpath", //div[@class='result']")
+results = driver.find_elements(By.XPATH, "//div[@class='g']")
 
 # loop through the results and print the text of each result
 for result in results:
     print(result.text)
 
 # close the browser
-driver.close()
+driver.quit()
