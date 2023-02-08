@@ -3,7 +3,7 @@ from selenium.webdriver.common.keys import Keys
 import time
 
 # create a new instance of the Chrome driver
-driver = webdriver.Chrome()
+driver = webdriver.Firefox()
 
 # navigate to the web application
 driver.get("https://www.example.com")
