@@ -5,10 +5,10 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 
 # Set up the web driver
-driver = webdriver.Chrome()
+driver = webdriver.Firefox()
 
 # Navigate to the target website
-driver.get("https://www.example.com")
+driver.get("https://www.Google.com")
 
 # Find the search bar
 search_bar = driver.find_element_by_xpath("//input[@id='search-bar']")
