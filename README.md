@@ -5,7 +5,7 @@ This code demonstrates the use of the Selenium library in Python to automate the
 - 1.) Git clone this repository https://github.com/MiChaelinzo/Automated-Web-Scraping-with-Selenium-in-Python.git
 - 2.) pip3 install selenium
 - 3.) Edit the web application you want to use in the AutomatedWebScraping.py line 9
-- 4.) Edit the keyword you wanto search in the AutomatedWebScraping.py line 15
+- 4.) Edit the keyword you want to search in the AutomatedWebScraping.py line 15
 - 5.) python3 AutomatedWebScraping.py to run the code 
 - 6.) Enjoy using Automated-Web-Scraping-with-Selenium-in-Python
 
